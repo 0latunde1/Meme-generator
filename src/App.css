@@ -1,0 +1,79 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header > img {
+  margin-right: 12px;
+}
+
+.meme {
+  margin-right: auto;
+
+  font-size: 1.5em;
+  color: white;
+}
+
+.course {
+  font-size: 1.1em;
+  color: white;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  margin: 10px 72px;
+  justify-content: space-between;
+}
+
+[class^="input-"] {
+  width: 650px;
+  height: 70px;
+}
+
+[class^="input-"] > input {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  padding-left: 15px;
+}
+
+.form > button {
+  margin: 30px 72px;
+  height: 60px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 10px;
+  font-size: 1.4em;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form > .image--container {
+  margin: 0 72px;
+  height: 456px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 300px;
+}
+
+.image--container > img {
+  max-width: 100%;
+  max-height: 100%;
+}
